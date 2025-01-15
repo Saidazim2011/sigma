@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.header{
+    width: 1441px;
+    padding: 20px 40px 20px 40px;
+    background-color:#232028;
+    margin: auto;
+}
+.nav_header{
+    width: 100%;
+    display: flex;
+}
+.nav_header h1{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+.select{
+    width: 114px;
+    height: 32px; 
+    background-color: #0C0E1866;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;   
+    color: white; 
+    margin-left: 29px;
+    align-content: center;
+}
+.select option{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 78px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #232028;     
+}
+.select option:hover{
+    color: #232028;
+    background-color: #BFAFF2;
+}
+.nav_header h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;   
+    color: white;
+    margin-left: 659px;
+}
+.nav_header button{
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;   
+    color: black;
+    background-color: #BFAFF2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 24px;
+    align-content: center;
+    text-align: center;
+}
+.header_nav_2 div{
+    width: 350px;
+    height: 552px;
+    padding: 24px 16px 24px 16px;
+    background-color:#232028;
+    margin-top: 100px;
+}
+.header_nav_2{
+    width: 100%;
+    display: flex;
+}
+.header_nav_2 div h4{
+    color: white;
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;   
+}
+.header_nav_2 div p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    padding-top: 8px; 
+}
+.nav_footer{
+    width: 1441px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    justify-content: space-between;
+    margin: auto;
+    align-content: center;
+}
+.nav_footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; 
+    align-items: center;  
+}
+.nav_footer h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;   
+    color: white;
+    align-items: center;
+}
+.nav_footer h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;   
+    color: white;
+    align-items: center
+}
